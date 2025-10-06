@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: Administre um sistema StorageGRID no NetApp Console usando a exibição avançada.  Esta exibição permite que você use o Grid Manager no NetApp Console. 
+---
+= Administrar o StorageGRID usando o Grid Manager no NetApp Console
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Administre um sistema StorageGRID no Console usando a visualização avançada.  Esta visualização permite que você use o Grid Manager no Console.
+
+.Função necessária do NetApp Console:
+Administrador de armazenamento ou especialista em integridade do sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre funções de acesso."^]
+
+
+
+== Configurações suportadas
+
+O Grid Manager está disponível no Console a partir do StorageGRID 11.8.
+
+
+
+== Limitações
+
+As seguintes operações do Grid Manager não estão disponíveis no Console.  Se você precisar executar essas operações, entre diretamente no Grid Manager.
+
+[cols="1a,2a"]
+|===
+| Menu do Gerenciador de Grade | Operações não disponíveis no Console 
+
+
+ a| 
+Usuário
+ a| 
+* Link de saída
+* Link de documentação da API
+* Alterar a senha
+
+
+
+
+ a| 
+Nós
+ a| 
+* Não é possível acessar o SANtricity System Manager na guia Nós > SANtricity System Manager.
+* Ao visualizar alertas, talvez você não consiga selecionar todos os links nas ações recomendadas.  Por exemplo, links que levam a páginas não suportadas do Grid Manager não funcionarão.
+
+
+
+
+ a| 
+Inquilinos
+ a| 
+Não é possível fazer login em uma conta de locatário pelo assistente Criar um locatário ou pela página Locatários.
+
+Atualmente, o Console não oferece suporte ao Gerenciador de Tenants.  Embora você possa criar novas contas de locatário no Console, os usuários locatários não podem acessar suas contas pelo Console.
+
+
+
+ a| 
+ILM
+ a| 
+Link de níveis de armazenamento
+
+
+
+ a| 
+Configuração
+ a| 
+* Senhas de grade
+* Classificação de tráfego > Métricas
+* Configurações de segurança > Tempo limite de inatividade do navegador
+* Login único
+* Agente SNMP > arquivo MIB para interface BMC
+
+
+
+
+ a| 
+Manutenção
+ a| 
+* Pacote de Recuperação
+* Atualização de software
+
+
+
+
+ a| 
+Apoiar
+ a| 
+* Topologia de grade
+* Registros
+* Métricas, incluindo todos os links para métricas do Prometheus e painéis do Grafana de outros lugares na interface do usuário.
+* Todas as opções para alarmes legados
+* Custo do link
+* Entidades NMS
+
+
+|===
+
+
+== Mudar para a visualização avançada
+
+Abra um sistema StorageGRID e selecione a opção de visualização avançada.
+
+.Passos
+. Na página *Sistemas*, abra o sistema StorageGRID .
+. No canto superior direito, selecione *Alternar para visualização avançada*.
+. Use o Grid Manager para gerenciar o sistema StorageGRID .
+. Se necessário, selecione Alternar para visualização padrão para retornar à visualização padrão pelo Console.
+
+
+
+
+== Obtenha ajuda com o Grid Manager
+
+Se precisar de ajuda para usar o Grid Manager, consulte https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentação do StorageGRID"^] para obter instruções passo a passo.

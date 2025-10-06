@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: Problemas conhecidos identificam problemas que podem impedir que você use esta versão do produto com sucesso. 
+---
+= Problemas conhecidos para gerenciar o StorageGRID no NetApp Console
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Problemas conhecidos identificam problemas que podem impedir que você use esta versão do produto com sucesso.
+
+
+
+== Os nomes de exibição atualizados não aparecem no NetApp Console
+
+Se você usar o procedimento de renomeação para definir um novo nome de exibição para um site ou grade, o novo nome de exibição não será refletido no NetApp Console.  No NetApp Console, o sistema continua mostrando o nome do sistema e não o novo nome de exibição.
+
+
+
+== Erro ao filtrar alertas
+
+Ao usar a visualização avançada, filtrar o conteúdo da página Alertas resulta em um erro.
+
+
+
+== Erro ao editar conexão de federação de grade
+
+Ao usar a visualização avançada, você pode encontrar um erro de tempo limite de gateway ao editar uma conexão de federação de grade.
