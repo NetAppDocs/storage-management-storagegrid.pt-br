@@ -28,9 +28,9 @@ indexpage:
       url: https://docs.netapp.com/us-en/storagegrid-118/
   - title: Blogs e comunidade
     links:
-    - title: Console NetApp
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: Serviços de dados NetApp
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: Comunidade NetApp
       url: https://community.netapp.com/

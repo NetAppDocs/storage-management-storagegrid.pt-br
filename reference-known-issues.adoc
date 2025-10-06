@@ -20,7 +20,7 @@ Problemas conhecidos identificam problemas que podem impedir que você use esta 
 
 == Os nomes de exibição atualizados não aparecem no NetApp Console
 
-Se você usar o procedimento de renomeação para definir um novo nome de exibição para um site ou grade, o novo nome de exibição não será refletido no NetApp Console.  No NetApp Console, o sistema continua mostrando o nome do sistema e não o novo nome de exibição.
+Se você usar o procedimento de renomeação para definir um novo nome de exibição para um site ou grade, o novo nome de exibição não será refletido no NetApp Console.  No NetApp Console, o sistema continua a mostrar o nome do sistema e não o novo nome de exibição.
 
 
 
