@@ -17,7 +17,7 @@ summary: Como os certificados podem expirar, ocasionalmente você pode precisar 
 Um certificado de interface de gerenciamento é necessário no seu sistema StorageGRID antes de você descobrir o sistema no NetApp Console.  O certificado fornece uma conexão segura entre o Console e o StorageGRID.  Como os certificados podem expirar, ocasionalmente você pode precisar visualizar o status ou atualizar um certificado.
 
 .Função necessária do NetApp Console :
-Administrador de armazenamento.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console ."^]
+Administrador de armazenamento. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^].
 
 
 
@@ -42,12 +42,12 @@ NOTE: O status do certificado é atualizado uma vez a cada 24 horas.
 Se o status do seu certificado de interface de gerenciamento não for válido ou você receber uma notificação de que seu certificado expirou, será necessário atualizá-lo para que o NetApp Console possa se conectar ao StorageGRID.
 
 .Passos
-. Acesse o Grid Manager local no StorageGRID e siga as instruções para https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Instalando um certificado de interface de gerenciamento no StorageGRID"] .
+. Acesse o seu Grid Manager local no StorageGRID e siga as instruções para https://docs.netapp.com/us-en/storagegrid/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Instalando um certificado de interface de gerenciamento no StorageGRID"] .
 . No menu de navegação do NetApp Console , selecione *Armazenamento > Gerenciamento*.
 . Na página *Sistemas*, selecione o sistema StorageGRID .
-. Selecione o ícone de mais opções (círculo com três pontos verticais).
+. Selecione o ícone de mais opções (círculo com três pontos horizontais).
 +
-image:screenshot-update-certificate.png["Uma captura de tela do menu de atualização."]
+image::screenshot-update-certificate.png[Uma captura de tela do menu de atualização.]
 
 . Selecione *Atualizar certificado*.
 . Na página _Aprovar certificado_, selecione *Aprovar certificado* para usar o certificado atualizado.

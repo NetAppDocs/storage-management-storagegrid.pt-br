@@ -17,7 +17,7 @@ summary: Administre um sistema StorageGRID no NetApp Console usando a exibição
 Administre um sistema StorageGRID no Console usando a visualização avançada.  Esta visualização permite que você use o Grid Manager no Console.
 
 .Função necessária do NetApp Console :
-Administrador de armazenamento ou especialista em integridade do sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre funções de acesso."^]
+Administrador de armazenamento ou especialista em integridade do sistema. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre funções de acesso"^].
 
 
 
@@ -75,7 +75,6 @@ Link de níveis de armazenamento
 Configuração
  a| 
 * Senhas de grade
-* Classificação de tráfego > Métricas
 * Configurações de segurança > Tempo limite de inatividade do navegador
 * Login único
 * Agente SNMP > arquivo MIB para interface BMC
@@ -96,8 +95,8 @@ Manutenção
 Apoiar
  a| 
 * Topologia de grade
-* Registros
-* Métricas, incluindo todos os links para métricas do Prometheus e painéis do Grafana de outros lugares na interface do usuário.
+* Coleta de registros
+* Todos os links para métricas do Prometheus e painéis do Grafana
 * Todas as opções para alarmes legados
 * Custo do link
 * Entidades NMS
@@ -106,15 +105,15 @@ Apoiar
 |===
 
 
-== Mudar para a visualização avançada
+== Alternar para o Gerenciador de Grade
 
-Abra um sistema StorageGRID e selecione a opção de visualização avançada.
+Abra um sistema StorageGRID e selecione a opção Gerenciador de Grade.
 
 .Passos
 . Na página *Sistemas*, abra o sistema StorageGRID .
-. No canto superior direito, selecione *Alternar para visualização avançada*.
+. No canto superior direito, selecione *Alternar para o Gerenciador de Grade*.
 . Use o Grid Manager para gerenciar o sistema StorageGRID .
-. Se necessário, selecione Alternar para visualização padrão para retornar à visualização padrão pelo Console.
+. Se necessário, selecione *Voltar* para retornar à visualização padrão através do Console.
 
 
 

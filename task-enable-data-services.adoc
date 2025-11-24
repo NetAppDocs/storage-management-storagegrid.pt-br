@@ -21,20 +21,20 @@ Depois de descobrir um sistema StorageGRID no NetApp Console, você pode usar os
 Para começar, acesse a página *Sistemas* e arraste e solte um sistema ONTAP local no seu sistema StorageGRID .
 
 +
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Saiba mais sobre como fazer backup de dados ONTAP locais no StorageGRID"^]
+https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-onprem-storagegrid.html["Saiba mais sobre como fazer backup de dados ONTAP locais no StorageGRID"^]
 
 * Use o NetApp Cloud Tiering para hierarquizar automaticamente dados inativos de clusters ONTAP locais para o StorageGRID.
 +
 Para começar, acesse a página *Sistemas* e arraste e solte um sistema ONTAP local no seu sistema StorageGRID .
 
 +
-https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["Saiba mais sobre como hierarquizar dados de clusters ONTAP locais para o StorageGRID"^]
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-storagegrid.html["Saiba mais sobre como hierarquizar dados de clusters ONTAP locais para o StorageGRID"^]
 
 * Use o NetApp Copy and Sync para sincronizar dados de ou para um sistema StorageGRID .
 +
 Para começar, vá para a página *Sistemas* e arraste e solte o sistema de origem no sistema de destino.  StorageGRID pode ser a origem ou o destino.
 
 +
-https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Saiba mais sobre o NetApp Copy and Sync"^]
+https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Saiba mais sobre o NetApp Copy and Sync"^]
 
 
