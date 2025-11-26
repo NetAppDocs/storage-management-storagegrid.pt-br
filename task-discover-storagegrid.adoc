@@ -27,7 +27,7 @@ Você precisa do seguinte:
 * Credenciais de administrador para o nó de administrador.
 * Um certificado de interface de gerenciamento instalado no seu sistema StorageGRID .
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Saiba mais sobre como instalar um certificado de interface de gerenciamento no StorageGRID"^]
+https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["Saiba mais sobre como instalar um certificado de interface de gerenciamento no StorageGRID"^]
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 . O Console recupera automaticamente o certificado da interface de gerenciamento do StorageGRID .  Na página _Aprovar certificado_, revise os detalhes do certificado.
 . Para usar um certificado diferente, primeiro configure-o no seu sistema StorageGRID .
 +
-.. No seu sistema StorageGRID local, siga as instruções: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Instalando um certificado de interface de gerenciamento no StorageGRID"^] .
+.. No seu sistema StorageGRID local, siga as instruções: https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["Instalando um certificado de interface de gerenciamento no StorageGRID"^].
 .. Após configurar o certificado no sistema StorageGRID , selecione *Cancelar* na página _Aprovar certificado_ no Console.
 .. Na página _Detalhes do cluster StorageGRID_, selecione *Adicionar*.
 

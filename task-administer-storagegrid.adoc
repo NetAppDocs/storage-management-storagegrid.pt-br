@@ -31,7 +31,7 @@ O Grid Manager está disponível no Console a partir do StorageGRID 11.8.
 
 As seguintes operações do Grid Manager não estão disponíveis no Console.  Se você precisar executar essas operações, entre diretamente no Grid Manager.
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | Menu do Gerenciador de Grade | Operações não disponíveis no Console 
 
@@ -120,4 +120,4 @@ Abra um sistema StorageGRID e selecione a opção Gerenciador de Grade.
 
 == Obtenha ajuda com o Grid Manager
 
-Se precisar de ajuda para usar o Grid Manager, consulte https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentação do StorageGRID"^] para obter instruções passo a passo.
+Se precisar de ajuda para usar o Grid Manager, consulte https://docs.netapp.com/us-en/storagegrid/admin/index.html["Documentação do StorageGRID"^] Para obter instruções passo a passo.
