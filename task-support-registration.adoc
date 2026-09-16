@@ -22,6 +22,7 @@ O registro para suporte não habilita o suporte da NetApp para um serviço de ar
 
 
 
+[[support-registration-overview]]
 == Visão geral do registro de suporte
 
 Existem duas formas de registro para ativar o direito ao suporte:
@@ -40,12 +41,14 @@ Registrar ambos os tipos de números de série habilita recursos como abertura d
 
 
 
+[[register-netapp-console-for-netapp-support]]
 == Registre o NetApp Console para suporte ao NetApp
 
 Para se registrar para obter suporte e ativar o direito ao suporte, um usuário na sua conta do NetApp Console deve associar uma conta do NetApp Support Site ao seu login no Console. A maneira como você se registra para o suporte da NetApp depende se você já tem uma conta no NetApp Support Site (NSS).
 
 
 
+[[existing-customer-with-an-nss-account]]
 === Cliente existente com uma conta NSS
 
 Se você for um cliente NetApp com uma conta NSS, basta se registrar para receber suporte pelo Console.
@@ -65,6 +68,7 @@ Observe que outros usuários do Console não verão o mesmo status de registro d
 
 
 
+[[existing-customer-but-no-nss-account]]
 === Cliente existente, mas sem conta NSS
 
 Se você já for um cliente da NetApp com licenças e números de série existentes, mas _nenhuma_ conta NSS, será necessário criar uma conta NSS e associá-la ao seu login do Console.
@@ -81,6 +85,7 @@ Se você já for um cliente da NetApp com licenças e números de série existen
 
 
 
+[[brand-new-to-netapp]]
 === Novidade na NetApp
 
 Se você é novo na NetApp e não tem uma conta NSS, siga cada etapa abaixo.
@@ -89,7 +94,7 @@ Se você é novo na NetApp e não tem uma conta NSS, siga cada etapa abaixo.
 . No canto superior direito do Console, selecione o ícone Ajuda e selecione *Suporte*.
 . Localize o número de série do seu ID de conta na página de Registro de Suporte.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
 
 . Navegar para https://register.netapp.com["Site de registro de suporte da NetApp"^] e selecione *Não sou um cliente registrado da NetApp *.
 . Preencha os campos obrigatórios (aqueles com asteriscos vermelhos).
@@ -117,6 +122,7 @@ Depois de ter sua conta do Site de Suporte NetApp , associe a conta ao seu login
 
 
 
+[[associate-nss-credentials-for-cloud-volumes-ontap-support]]
 == Credenciais associadas do NSS para suporte do Cloud Volumes ONTAP
 
 É necessário associar as credenciais do NetApp Support Site à sua conta do Console para habilitar os seguintes fluxos de trabalho principais para o Cloud Volumes ONTAP:
@@ -143,7 +149,7 @@ Essas credenciais NSS estão associadas ao ID específico da sua conta do Consol
 .Passos
 . No canto superior direito do Console, selecione o ícone Ajuda e selecione *Suporte*.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
 
 . Selecione *Gerenciamento NSS > Adicionar conta NSS*.
 . Quando solicitado, selecione *Continuar* para ser redirecionado para uma página de login da Microsoft.
@@ -168,9 +174,9 @@ O mesmo é verdadeiro se você tiver contas NSS pré-existentes em nível de cli
 
 ** Após o login bem-sucedido, o NetApp armazenará o nome de usuário do NSS.
 +
-Este é um ID gerado pelo sistema que mapeia para seu e-mail. Na página *NSS Management*, você pode exibir seu e-mail doimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
+Este é um ID gerado pelo sistema que corresponde ao seu e-mail. Na página *Gerenciamento de NSS*, você pode visualizar seu e-mail no image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
 
-** Se você precisar atualizar seus tokens de credenciais de login, também há uma opção *Atualizar credenciais* noimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
+** Se você precisar atualizar seus tokens de credencial de login, também há a opção *Atualizar Credenciais* no image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
 +
 Usar esta opção solicitará que você faça login novamente. Observe que o token para essas contas expira após 90 dias. Uma notificação será publicada para alertá-lo sobre isso.
 

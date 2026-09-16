@@ -17,10 +17,11 @@ summary: Como os certificados podem expirar, ocasionalmente você pode precisar 
 Um certificado de interface de gerenciamento é necessário no seu sistema StorageGRID antes de você descobrir o sistema no NetApp Console.  O certificado fornece uma conexão segura entre o Console e o StorageGRID.  Como os certificados podem expirar, ocasionalmente você pode precisar visualizar o status ou atualizar um certificado.
 
 .Função necessária do NetApp Console :
-Administrador de armazenamento. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^].
+Superadministrador ou administrador de armazenamento. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console ."^]
 
 
 
+[[view-the-status-of-a-management-interface-certificate]]
 == Visualizar o status de um certificado de interface de gerenciamento
 
 Visualize o status do certificado da interface de gerenciamento de um sistema StorageGRID para verificar se o certificado ainda é válido.
@@ -37,6 +38,7 @@ NOTE: O status do certificado é atualizado uma vez a cada 24 horas.
 
 
 
+[[update-the-management-interface-certificate]]
 == Atualizar o certificado da interface de gerenciamento
 
 Se o status do seu certificado de interface de gerenciamento não for válido ou você receber uma notificação de que seu certificado expirou, será necessário atualizá-lo para que o NetApp Console possa se conectar ao StorageGRID.
