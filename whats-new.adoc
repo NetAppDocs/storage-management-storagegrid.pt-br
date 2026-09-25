@@ -18,6 +18,20 @@ Saiba o que há de novo no gerenciamento de sistemas StorageGRID no NetApp Conso
 
 
 
+[[01-september-2026]]
+== 01 de setembro de 2026
+
+
+
+[[support-for-storagegrid-12-1]]
+=== Suporte para StorageGRID 12.1
+
+Agora você pode gerenciar o StorageGRID 12.1 a partir do NetApp Console.
+
+https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-storagegrid.html["Aprenda a administrar o StorageGRID usando a visualização avançada no NetApp Console"].
+
+
+
 [[06-october-2025]]
 == 06 de outubro de 2025
 
